@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="light-blue-text">Works </strong>
+          My Recent <strong className="light-blue-text">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -26,65 +26,54 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="A personal chat room or workspace to share resources and hang out with friends. Built with React.js, Material-UI, and Firebase. Features include real-time messaging, image sharing, and message reactions."
               ghLink="https://github.com/francocondor/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/francocondor/Bits-0f-C0de"
-              demoLink="https://blogs.francocondor-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/francocondor/Editor.io"
-              demoLink="https://editor.francocondor-jit.tech/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/francocondor/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Leaf"
+              description="An eco-friendly project management tool designed to help teams collaborate efficiently while promoting sustainable practices. Built with Node.js, Express, and MongoDB."
+              ghLink="https://github.com/francocondor/Leaf"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/francocondor/AI_For_Social_Good"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/francocondor/Face_And_Emotion_Detection"
-            // demoLink="https://blogs.francocondor-jit.tech/"      <--------Please include a demo link here 
+              title="Emotion Detection"
+              description="A machine learning project that detects emotions from text input. Utilizes Python, TensorFlow, and Natural Language Processing (NLP) techniques."
+              ghLink="https://github.com/francocondor/Emotion-Detection"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Code Editor"
+              description="A powerful code editor with syntax highlighting, auto-completion, and real-time collaboration features. Built with React.js and Firebase."
+              ghLink="https://github.com/francocondor/Code-Editor"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Suicide Prevention"
+              description="A web application aimed at suicide prevention by providing resources and support. Built with Django and React.js."
+              ghLink="https://github.com/francocondor/Suicide-Prevention"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={true}
+              title="Bits of Code"
+              description="A technical blog where I share my knowledge and experiences in software development. Built with Gatsby and Markdown."
+              ghLink="https://github.com/francocondor/Bits-of-Code"
             />
           </Col>
         </Row>
