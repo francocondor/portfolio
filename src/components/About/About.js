@@ -15,14 +15,10 @@ function About() {
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
+            style={{ paddingTop: "30px", paddingBottom: "50px" }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="light-blue-text">I'm</strong>
+            <h1 className="project-heading">
+              About <strong className="light-blue-text">Me</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,16 +31,13 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="light-blue-text">Skillset </strong>
+          Professional <strong className="light-blue-text">Skillset</strong>
         </h1>
-
         <Techstack />
-
         <h1 className="project-heading">
           <strong className="light-blue-text">Tools</strong> I use
         </h1>
         <Toolstack />
-
         <Github />
       </Container>
     </Container>
