@@ -15,15 +15,15 @@ function AboutCard() {
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
-          <ul >
-            <li className="about-activity">
-              <ImPointRight className="icon" /> Sports
-            </li>
-            <li className="about-activity">
-              <ImPointRight className="icon" /> Language
-            </li>
+          <ul>
             <li className="about-activity">
               <ImPointRight className="icon" /> Travel
+            </li>
+            <li className="about-activity">
+              <ImPointRight className="icon" /> Technology
+            </li>
+            <li className="about-activity">
+              <ImPointRight className="icon" /> Sports
             </li>
           </ul>
           <p style={{ color: "rgba(126, 159, 226, 0.9)" }}>
