@@ -8,28 +8,28 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I’m a <span className="light-blue-text">backend developer</span> with a solid background and experience in web development.
-            If you want to learn more about me and what I can do for you, you can take a look at my portfolio or
-            send me a message.
+            Hello, I'm a <span className="light-blue-text">backend developer</span> with a solid background and experience in web development.
+            I specialize in creating robust and scalable web applications.
+            If you'd like to learn more about my work, feel free to explore my portfolio or reach out to me directly.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Besides coding, here are a few activities I enjoy in my free time:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight className="icon" /> Travel
+              <ImPointRight className="icon" /> Traveling
             </li>
             <li className="about-activity">
-              <ImPointRight className="icon" /> Technology
+              <ImPointRight className="icon" /> Exploring new technologies
             </li>
             <li className="about-activity">
-              <ImPointRight className="icon" /> Sports
+              <ImPointRight className="icon" /> Playing sports
             </li>
           </ul>
           <p style={{ color: "rgba(126, 159, 226, 0.9)" }}>
             "In programming, the hard part isn't solving problems but deciding what problems to solve."{" "}
           </p>
-          <footer className="blockquote-footer">Paul Graham1</footer>
+          <footer className="blockquote-footer">Paul Graham</footer>
         </blockquote>
       </Card.Body>
     </Card>
